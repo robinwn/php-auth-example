@@ -23,10 +23,10 @@ return [
         // keycloak
         'keycloak' => [
             //'name' => 'bcgovidir', // override for multiple providers based on keycloak
-            'baseUrl' => 'https://dev.loginproxy.gov.bc.ca/auth',
-            'realm' => 'standard',
-            'applicationId' => 'pnp-provincial-nominee-program-4062',
-            'applicationSecret' => '** client secret here **',
+            'baseUrl' => '**auth-server-url**',
+            'realm' => '**realm**',
+            'applicationId' => '**resource**',
+            'applicationSecret' => '**secret**',
             'scope' => [
                 'email', 'profile' // openid will be always added
             ],

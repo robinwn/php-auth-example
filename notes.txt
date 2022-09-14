@@ -1,0 +1,15 @@
+vs-code php example
+
+
+vscode devcontainer based on:
+https://github.com/microsoft/vscode-remote-try-php
+
+
+open php-auth-example in vscode
+
+add client secret to config.php
+
+open a new Terminal
+run:
+  > composer update
+  > php -S 0.0.0.0:8000
